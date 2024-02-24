@@ -1,0 +1,156 @@
+
+@import url('https://fonts.cdnfonts.com/css/droid-sans-2');
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+span{
+    font-family: 'Droid Sans', sans-serif;
+}
+.main{
+    background-color: #D9D9D9;
+}
+.textSidebar{
+    display: none;
+}
+#iconHamburger{
+    display: block;
+}
+#arrowLeft{
+    display: none;
+}
+#logoEmpresa{
+    display: none;
+}
+#iconSalir{
+    display: none;
+}
+.list-group-item{
+    background-color: rgba(0,0,0,0) !important;
+}
+.iconSidebar{
+    height: 75%;
+    width: 75%;
+}
+#itemlist{
+    border-bottom: 1px solid white !important;
+}
+.list-group-item{
+    border: none !important;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 7%;
+    background-color: #1D2553;
+    height: 100vh;
+}
+#groupIcons{
+    display: flex;
+}
+.userSection{
+    position: relative;
+    bottom: 0;
+    height: max-content;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse !important;
+}
+ul>li:not(.list-group-item){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    border-left: 1px solid black;
+    font-size: 1.6em;
+    font-family: 'Droid Sans', sans-serif;
+}
+.factura{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    height: 85vh;
+    background-color: #fafafa;
+}
+
+.factura>div{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.cliente{
+    border-bottom: 1px solid black;
+}
+.btn{
+    font-family: 'Droid Sans', sans-serif;
+}
+.cliente>.btn,.detalles>div>.btn{
+    background-color: #1D2553;
+}
+.cliente>.btn:hover{
+    background-color: #4A5075;
+}
+.botonesFactu{
+    border-top: 1px solid black;
+}
+#btnDescartar{
+    background-color: #B42929;
+}
+#btnCompletar{
+    background-color: #55A34F;
+}
+#btnDescartar:hover{
+    background-color: #C35353;
+}
+#btnCompletar:hover{
+    background-color: #76B572;
+}
+.detalles{
+    display: contents;
+}
+.detallesLista{
+    padding-left: 1%;
+
+    min-height: 50%;
+    max-height: 50%;
+
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid rgba(0,0,0,.2);
+    border-left: 1px solid rgba(0,0,0,.2);
+    overflow-y: scroll;
+    scrollbar-color: #1D2553 rgb(221, 221, 221, 0.1);
+    scrollbar-width: thin;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.producto{
+    display: flex;
+    flex-direction: row;
+    min-height: 30%;
+    overflow-x: clip;
+    border-bottom: 1px solid black;
+}
+.productoNoImg{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.imgProducto{
+
+}
+
+.tituloProducto{
+    font-family: 'Droid Sans', sans-serif;
+}
+.marcaProducto{
+    font-family: 'DM Sans', sans-serif;
+}
+.precioProducto{
+}

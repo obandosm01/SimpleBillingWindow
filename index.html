@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facturacion</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body class="d-flex m-0 p-0 flex-row main">
+    <div class="sidebar py-2">
+        <!-- Para dividir las secciones -->
+        <ul class="list-group px-1" id="listGroup">
+            <li class="list-group-item d-flex justify-content-center align-items-center" id="itemlist"> <!-- Despliegue del sidebar -->
+                <img src="img/logo.png" width="100%" alt="" id="logoEmpresa">
+                <i class="fa-solid fa-chevron-left" id="arrowLeft"></i>
+                <i class="fa-solid fa-bars text-light iconSidebar" id="iconHamburger"></i>
+            </li>
+            <li class="list-group-item">
+                <ul class="p-0 d-flex justify-content-center align-items-center d-flex flex-column" id="groupIcons">
+                    <li class="py-4 d-flex flex-row align-items-center">
+                        <i class="fa-solid fa-chart-column iconSidebar text-light"></i>
+                        <span class="text-light textSidebar">Ventas</span>
+                    </li>
+                    <li class="py-4 flex-row align-items-center">
+                        <i class="fa-solid fa-gauge-high iconSidebar text-light"></i>
+                        <span class="text-light textSidebar">Dashboard</span>
+                    </li>
+                    <li class="py-4 flex-row align-items-center">
+                        <i class="fa-solid fa-barcode iconSidebar text-light"></i>
+                        <span class="text-light textSidebar">Productos</span>
+                    </li>
+                    <li class="py-4 flex-row align-items-center">
+                        <i class="fa-solid fa-receipt iconSidebar text-light"></i>
+                        <span class="text-light textSidebar">Facturación</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="px-1" id="itemUser">
+            <div class="userSection d-flex justify-content-center pt-4 p-2">
+                <i class="fa-solid fa-user-circle iconSidebar text-light"></i>
+                <span class="text-light textSidebar">Usuario</span>
+                <i class="fa-solid fa-arrow-right-from-bracket text-light" id="iconSalir"></i>
+            </div>
+        </div>
+    </div>
+    <div class="mt-4 mb-1 mx-3 w-100 h-100" id="facturaContenido">
+        <div class="titulo">
+            <p class="ps-4">Facturación</p>
+        </div>
+        <div class="factura d-flex flex-column">
+            <div class="m-4">
+                <!-- Sección cliente -->
+                <section class="cliente p-2 pb-3">
+                    <button class="ms-2 btn text-light px-3">
+                        <i class="fa-solid fa-user me-2"></i>
+                        Buscar Cliente
+                    </button>
+                </section>
+                <!--Seccion detalles-->
+                <div class="p-2 detalles">
+                    <div class="mt-3">
+                        <button class="btn text-light ms-2 px-3">
+                            <i class="fa-solid fa-basket-shopping me-1"></i>
+                            Buscar Producto
+                        </button>
+                    </div>
+                   <section class="detallesLista m-3">
+                        <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                            <div class="productoNoImg">
+                                <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                    <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                    <span class="marcaProducto">Dos Pinos</span>
+                                </div>
+                                <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                    <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                                </div>
+                            </div>
+
+                        </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+                       <div class="producto px-2 d-flex flex-row justify-content-between">
+
+                           <div class="productoNoImg">
+                               <div class="infoProducto d-flex flex-column py-2 justify-content-evenly">
+                                   <span class="tituloProducto fw-bolder">Leche semidescremada 1L</span>
+                                   <span class="marcaProducto">Dos Pinos</span>
+                               </div>
+                               <div class="precioProducto w-auto d-flex align-items-center flex-row-reverse">
+                                   <span class="fw-bolder h3 me-4 text-primary-emphasis">$5.99</span>
+                               </div>
+                           </div>
+
+                       </div>
+
+                   </section>
+                </div>
+                <section class="totales justify-content-end d-flex px-3">
+                    <h2 style="font-family: 'DM Sans', sans-serif">Total: tu mamá :p</h2>
+                </section>
+                <!--Seccion botones-->
+                <section class="botonesFactu d-flex flex-row-reverse pt-3 pe-2">
+                    <button class="btn text-light mx-1 px-3" id="btnCompletar">
+                        <i class="fa-solid fa-check-circle me-1"></i>
+                        Completar
+                    </button>
+                    <button class="btn text-light mx-1 px-3" id="btnDescartar">
+                        <i class="fa-solid fa-trash me-2"></i>
+                        Descartar
+                    </button>
+
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./fontawesome/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</html>
